@@ -18,21 +18,21 @@ class Fxg(Tk):
     def __init__(self):
         super(Fxg, self).__init__()
         
+        # Create frame
         self.title("YT MP3 downloader")
         self.minsize(100, 50)
 
         self.labelFrame = ttk.LabelFrame(self, text = "FFMPEG").grid(column = 0, row = 1)
-        #self.labelFrame.grid(column = 0, row = 1)
-
         
+        #display buttons and text boxs
         self.buttonstart()
         self.buttonquit()
         self.url()
         self.vidname()
-    
+        
     
         
-#set the suttons
+      #Configer buttons and text boxs
         
     def  buttonstart(self):
 
