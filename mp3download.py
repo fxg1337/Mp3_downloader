@@ -87,8 +87,8 @@ class Fxg(Tk):
         
         a.download(folder_selected, filename = name+".mp3")
         
-        self.progress.destroy()
-        
+        self.progress.destroy() # get rid of the progress bar
+        tk.messagebox.showinfo('Completed(YT MP3 downloader)','Download Complated') # pop up a done messgae
         
         
 
