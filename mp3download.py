@@ -89,8 +89,8 @@ class Fxg(Tk):
         
         self.progress.destroy() # get rid of the progress bar
         tk.messagebox.showinfo('Completed(YT MP3 downloader)','Download Complated') # pop up a done messgae
-        
-        
+        self.vidnameb.delete(0, 'end') # clear video name entry box
+        self.urlentry.delete(0, 'end') # clare url entery box
 
     def quit(self):
 
