@@ -20,6 +20,7 @@ class Fxg(Tk):
         
         self.title("YT MP3 downloader")
         self.minsize(100, 50)
+        self.wm_attributes('-toolwindow', 'True')
 
         self.labelFrame = ttk.LabelFrame(self, text = "FFMPEG").grid(column = 0, row = 1)
         #self.labelFrame.grid(column = 0, row = 1)
